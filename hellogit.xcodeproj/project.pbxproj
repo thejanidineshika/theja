@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1C6747C1CB1DF0A00718951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C6747B1CB1DF0A00718951 /* main.m */; };
+		F1C6747F1CB1DF0A00718951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C6747E1CB1DF0A00718951 /* AppDelegate.m */; };
+		F1C674821CB1DF0A00718951 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C674811CB1DF0A00718951 /* ViewController.m */; };
+		F1C674851CB1DF0A00718951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C674831CB1DF0A00718951 /* Main.storyboard */; };
+		F1C674871CB1DF0A00718951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C674861CB1DF0A00718951 /* Assets.xcassets */; };
+		F1C6748A1CB1DF0A00718951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C674881CB1DF0A00718951 /* LaunchScreen.storyboard */; };
+		F1C674951CB1DF0A00718951 /* hellogitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C674941CB1DF0A00718951 /* hellogitTests.m */; };
+		F1C674A01CB1DF0A00718951 /* hellogitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C6749F1CB1DF0A00718951 /* hellogitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C674911CB1DF0A00718951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C6746F1CB1DF0A00718951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C674761CB1DF0A00718951;
+			remoteInfo = hellogit;
+		};
+		F1C6749C1CB1DF0A00718951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C6746F1CB1DF0A00718951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C674761CB1DF0A00718951;
+			remoteInfo = hellogit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1C674771CB1DF0A00718951 /* hellogit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellogit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C6747B1CB1DF0A00718951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1C6747D1CB1DF0A00718951 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1C6747E1CB1DF0A00718951 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1C674801CB1DF0A00718951 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1C674811CB1DF0A00718951 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1C674841CB1DF0A00718951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1C674861CB1DF0A00718951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C674891CB1DF0A00718951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1C6748B1CB1DF0A00718951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C674901CB1DF0A00718951 /* hellogitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellogitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C674941CB1DF0A00718951 /* hellogitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hellogitTests.m; sourceTree = "<group>"; };
+		F1C674961CB1DF0A00718951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C6749B1CB1DF0A00718951 /* hellogitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellogitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C6749F1CB1DF0A00718951 /* hellogitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hellogitUITests.m; sourceTree = "<group>"; };
+		F1C674A11CB1DF0A00718951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C674741CB1DF0A00718951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C6748D1CB1DF0A00718951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C674981CB1DF0A00718951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1C6746E1CB1DF0A00718951 = {
+			isa = PBXGroup;
+			children = (
+				F1C674791CB1DF0A00718951 /* hellogit */,
+				F1C674931CB1DF0A00718951 /* hellogitTests */,
+				F1C6749E1CB1DF0A00718951 /* hellogitUITests */,
+				F1C674781CB1DF0A00718951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C674781CB1DF0A00718951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C674771CB1DF0A00718951 /* hellogit.app */,
+				F1C674901CB1DF0A00718951 /* hellogitTests.xctest */,
+				F1C6749B1CB1DF0A00718951 /* hellogitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C674791CB1DF0A00718951 /* hellogit */ = {
+			isa = PBXGroup;
+			children = (
+				F1C6747D1CB1DF0A00718951 /* AppDelegate.h */,
+				F1C6747E1CB1DF0A00718951 /* AppDelegate.m */,
+				F1C674801CB1DF0A00718951 /* ViewController.h */,
+				F1C674811CB1DF0A00718951 /* ViewController.m */,
+				F1C674831CB1DF0A00718951 /* Main.storyboard */,
+				F1C674861CB1DF0A00718951 /* Assets.xcassets */,
+				F1C674881CB1DF0A00718951 /* LaunchScreen.storyboard */,
+				F1C6748B1CB1DF0A00718951 /* Info.plist */,
+				F1C6747A1CB1DF0A00718951 /* Supporting Files */,
+			);
+			path = hellogit;
+			sourceTree = "<group>";
+		};
+		F1C6747A1CB1DF0A00718951 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1C6747B1CB1DF0A00718951 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1C674931CB1DF0A00718951 /* hellogitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C674941CB1DF0A00718951 /* hellogitTests.m */,
+				F1C674961CB1DF0A00718951 /* Info.plist */,
+			);
+			path = hellogitTests;
+			sourceTree = "<group>";
+		};
+		F1C6749E1CB1DF0A00718951 /* hellogitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C6749F1CB1DF0A00718951 /* hellogitUITests.m */,
+				F1C674A11CB1DF0A00718951 /* Info.plist */,
+			);
+			path = hellogitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C674761CB1DF0A00718951 /* hellogit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C674A41CB1DF0A00718951 /* Build configuration list for PBXNativeTarget "hellogit" */;
+			buildPhases = (
+				F1C674731CB1DF0A00718951 /* Sources */,
+				F1C674741CB1DF0A00718951 /* Frameworks */,
+				F1C674751CB1DF0A00718951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hellogit;
+			productName = hellogit;
+			productReference = F1C674771CB1DF0A00718951 /* hellogit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1C6748F1CB1DF0A00718951 /* hellogitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C674A71CB1DF0A00718951 /* Build configuration list for PBXNativeTarget "hellogitTests" */;
+			buildPhases = (
+				F1C6748C1CB1DF0A00718951 /* Sources */,
+				F1C6748D1CB1DF0A00718951 /* Frameworks */,
+				F1C6748E1CB1DF0A00718951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C674921CB1DF0A00718951 /* PBXTargetDependency */,
+			);
+			name = hellogitTests;
+			productName = hellogitTests;
+			productReference = F1C674901CB1DF0A00718951 /* hellogitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1C6749A1CB1DF0A00718951 /* hellogitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C674AA1CB1DF0A00718951 /* Build configuration list for PBXNativeTarget "hellogitUITests" */;
+			buildPhases = (
+				F1C674971CB1DF0A00718951 /* Sources */,
+				F1C674981CB1DF0A00718951 /* Frameworks */,
+				F1C674991CB1DF0A00718951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C6749D1CB1DF0A00718951 /* PBXTargetDependency */,
+			);
+			name = hellogitUITests;
+			productName = hellogitUITests;
+			productReference = F1C6749B1CB1DF0A00718951 /* hellogitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C6746F1CB1DF0A00718951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Thejani Wedikkara Arachchi";
+				TargetAttributes = {
+					F1C674761CB1DF0A00718951 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F1C6748F1CB1DF0A00718951 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F1C674761CB1DF0A00718951;
+					};
+					F1C6749A1CB1DF0A00718951 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F1C674761CB1DF0A00718951;
+					};
+				};
+			};
+			buildConfigurationList = F1C674721CB1DF0A00718951 /* Build configuration list for PBXProject "hellogit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C6746E1CB1DF0A00718951;
+			productRefGroup = F1C674781CB1DF0A00718951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C674761CB1DF0A00718951 /* hellogit */,
+				F1C6748F1CB1DF0A00718951 /* hellogitTests */,
+				F1C6749A1CB1DF0A00718951 /* hellogitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C674751CB1DF0A00718951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C6748A1CB1DF0A00718951 /* LaunchScreen.storyboard in Resources */,
+				F1C674871CB1DF0A00718951 /* Assets.xcassets in Resources */,
+				F1C674851CB1DF0A00718951 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C6748E1CB1DF0A00718951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C674991CB1DF0A00718951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C674731CB1DF0A00718951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C674821CB1DF0A00718951 /* ViewController.m in Sources */,
+				F1C6747F1CB1DF0A00718951 /* AppDelegate.m in Sources */,
+				F1C6747C1CB1DF0A00718951 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C6748C1CB1DF0A00718951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C674951CB1DF0A00718951 /* hellogitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C674971CB1DF0A00718951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C674A01CB1DF0A00718951 /* hellogitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C674921CB1DF0A00718951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C674761CB1DF0A00718951 /* hellogit */;
+			targetProxy = F1C674911CB1DF0A00718951 /* PBXContainerItemProxy */;
+		};
+		F1C6749D1CB1DF0A00718951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C674761CB1DF0A00718951 /* hellogit */;
+			targetProxy = F1C6749C1CB1DF0A00718951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1C674831CB1DF0A00718951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C674841CB1DF0A00718951 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1C674881CB1DF0A00718951 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C674891CB1DF0A00718951 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1C674A21CB1DF0A00718951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1C674A31CB1DF0A00718951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C674A51CB1DF0A00718951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hellogit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.hellogit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1C674A61CB1DF0A00718951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hellogit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.hellogit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1C674A81CB1DF0A00718951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hellogitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.hellogitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellogit.app/hellogit";
+			};
+			name = Debug;
+		};
+		F1C674A91CB1DF0A00718951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hellogitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.hellogitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellogit.app/hellogit";
+			};
+			name = Release;
+		};
+		F1C674AB1CB1DF0A00718951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hellogitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.hellogitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hellogit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F1C674AC1CB1DF0A00718951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hellogitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.hellogitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hellogit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C674721CB1DF0A00718951 /* Build configuration list for PBXProject "hellogit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C674A21CB1DF0A00718951 /* Debug */,
+				F1C674A31CB1DF0A00718951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C674A41CB1DF0A00718951 /* Build configuration list for PBXNativeTarget "hellogit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C674A51CB1DF0A00718951 /* Debug */,
+				F1C674A61CB1DF0A00718951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1C674A71CB1DF0A00718951 /* Build configuration list for PBXNativeTarget "hellogitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C674A81CB1DF0A00718951 /* Debug */,
+				F1C674A91CB1DF0A00718951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1C674AA1CB1DF0A00718951 /* Build configuration list for PBXNativeTarget "hellogitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C674AB1CB1DF0A00718951 /* Debug */,
+				F1C674AC1CB1DF0A00718951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C6746F1CB1DF0A00718951 /* Project object */;
+}
